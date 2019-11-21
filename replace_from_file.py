@@ -25,4 +25,5 @@ for line in source_file:
 		tgt_line = tgt_line.replace(s[0], s[1])
 	target_file.write(tgt_line)
 
+
 target_file.close()
