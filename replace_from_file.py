@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 # encoding: utf-8
+# reload(sys)
+# sys.setdefaultencoding('utf8')
+
 import fileinput
 import sys
 
-# reload(sys)
-# sys.setdefaultencoding('utf8')
 
 filename_src = '/Users/NewFolk/OneDrive/Евраз/ToDel/Замена в CV/source.txt'
 filename_tgt = '/Users/NewFolk/OneDrive/Евраз/ToDel/Замена в CV/target.txt'
